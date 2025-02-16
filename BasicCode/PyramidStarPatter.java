@@ -13,6 +13,8 @@ public class PyramidStarPatter {
         }
 // third loop is to 1 to 5 with logic of add of 3 
         for(int j = 1 ; j <= (2 * i - 1 ); j++){
+            // print in same line 
+            
             System.out.print("*");
         }
         System.out.println();
