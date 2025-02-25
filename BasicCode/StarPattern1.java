@@ -14,7 +14,7 @@ public static void main ( String [] args ){
    
 // }
    
-   for (int i = 1; i <= 10; i++) {  // Controls the number of rows
+   for (int i = 1; i <= 5; i++) {  // Controls the number of rows
             for (int j = 1; j <= i; j++) {  // Prints stars in increasing order
                 System.out.print(s);
             }
