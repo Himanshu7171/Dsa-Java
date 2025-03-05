@@ -1,6 +1,6 @@
 package BasicCode;
 
-import java.util.Arrays;
+
 
 public class SecondLargestInArray {
 
