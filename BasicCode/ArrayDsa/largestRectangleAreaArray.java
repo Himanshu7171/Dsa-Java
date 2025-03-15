@@ -15,6 +15,7 @@ public class largestRectangleAreaArray {
                 int width = (top == -1) ? i : i - stack[top] - 1;
                 maxArea = Math.max(maxArea, height * width);
             }
+            
 
             stack[++top] = i; // Push index manually
         }
